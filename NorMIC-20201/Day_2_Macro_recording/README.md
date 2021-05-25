@@ -98,7 +98,7 @@ Hints:
 
 ### Step 4: Macro Language
 
-**Task 4**: Follow the "Hello World" Example that is in [here](https://imagej.nih.gov/ij/developer/macro/macros.html#hello)
+**Task 4**: Follow the "Hello World" Example that is in [here](https://imagej.nih.gov/ij/developer/macro/macros.html#hello). Then go over the examples of variables and operators.
 
 #### Variables and operators
 
@@ -132,4 +132,93 @@ last_name = "Camacho";
 print("Hello " + first_name + " " + last_name);
 ```
 
+#### Example of strings and numbers working together in IJM
+
 [Here](./Macros/concatenate_strings_numbers.ijm) you find a combination of strings and numbers:
+
+```
+// init strings
+first_name = "Rafael";
+fn_length = lengthOf(first_name);
+last_name = "Camacho";
+ln_length = lengthOf(last_name);
+// concatenate and print
+print("\\Clear");
+print("Hello " + first_name + " " + last_name);
+print("Your first name (" + first_name + ") has " + fn_length + " letters");
+print("Your last name (" + last_name + ") has " + ln_length + " letters");
+```
+
+**Task 5**: Print to the users how many objects were detercted in the blobs image
+
+Hints, look at the commands:
+
+* `roiManager("count")`
+* `nResults`
+* Store the number in a variable and then print to the user following the examples from taks 5
+
+**Catchup** Having problems look and example [here](./Macros/Macro_04.ijm)
+
+### Step 5: Control statements
+
+In programming, **control satemensts** are used to decide the *flow* ofn the programm. This is how we tell the program what to do if somethings happens (`if-statement`) and to repeat a process a number of times (`for-loop`).
+
+#### Example of for loops
+
+This example of code [link](./Macros/for_loops.ijm) calculates the cumulative sum of sumber from 0-9 using a `for-loop`
+
+```
+// init variables
+c_sum = 0;
+print("\\Clear");
+// for loop
+for (i = 0; i < 10; i++) {
+	c_sum = c_sum + i;
+	print("Current index: " + i);
+	print("Cumulative sum: " + c_sum);
+	print("---------");	
+}
+```
+
+Play close attention to the syntax, you can read as run the code between `{}` for `i = 0`, then add 1 to `i` (`i++`), run it again if `i` is smaller than 10 (`i < 10`), then add 1 to i (`i++`), ...
+
+#### Example of if statements
+
+This example of code [link](./Macros/if_statement.ijm) creates a random number between [0,10) and then prints if the number is larger or smaller than 5.
+
+```
+// init variables
+r_number = random * 10;
+print("\\Clear");
+// if statement
+if (r_number > 5) {
+	print("Number is larger than 5: " + r_number);
+} else {
+	print("Number is smaller than 5: " + r_number);
+}
+```
+
+Play close attention to the syntax, you can read this as if the condition is true, then run the code between `{}`
+
+**Task 6**: colorcode the blobs image based on a property of the detected objects, e.g. circularity.
+
+![alt text](./data/color_coded.png "Color-coded blobs")
+
+Hint, to solve this problem you have to combine the `for-loop` with the `if-statement` in something that looks like:
+
+```
+for (i = 0; i < nResults(); i++){
+    c = getResults('Circ.', i);
+    roiManager("Select", i);
+    if(c > 0.9){
+        // do something
+    } else{
+        // do something else
+    }
+}
+```
+
+An example of this pattern, outside of the ROI context can be found [here](./Macros/loop_and_if.ijm). I recommend you study that example first.
+
+
+**Example of an Answer**: [here](./Macros/Macro_05.ijm) I show a working example to solve this question. Please keep in mind that "all roads lead to rome" and thus there are many ways to solve this problem.
