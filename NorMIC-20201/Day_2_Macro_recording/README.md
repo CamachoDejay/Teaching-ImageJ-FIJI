@@ -59,7 +59,7 @@ Hints:
   * Change the language to imageJ macro via `Language > IJ1 Macro`
   * Copy paste what you need from the recorder
 
-* In most cases, it is a good idea to always clean you ImageJ before you run commands, for example:
+* In most cases, it is a good idea to always clean your ImageJ before you run commands, for example:
 
 ```
 // clean up first
@@ -73,14 +73,14 @@ run("Clear Results");
 setOption("BlackBackground", true);
 ```
 
-* Remember that you can add comments by using `//` af the start of a line, see example above
+* Remember that you can add comments by using `//` at the start of a line, see example above
 * To automatically open the Blobs image you can use `run("Blobs (25K)");`
 
 **Catchup** Having problems look and example [here](./Macros/Macro_02.ijm)
 
 ### Step 3: Simple user input in the macro
 
-**Task 3**: Let us ask the user to open an iamge and run the same analysis as before in that image
+**Task 3**: Let us ask the user to open an image and run the same analysis as before in that image
 
 Hints:
 
@@ -94,7 +94,7 @@ Hints:
 
 * Use the [cheat sheet](https://github.com/BiAPoL/imagej-macro-cheat-sheet)
 * Have a look at how to get [Script parameters working](https://imagej.net/Script_parameters)
-* For this example is enough to use `File.*` commands Ishowed above
+* For this example is enough to use the `File.*` commands I showed above
 
 **Catchup** Having problems look and example [here](./Macros/Macro_03.ijm)
 
@@ -104,7 +104,7 @@ Hints:
 
 #### Variables and operators
 
-**Variables** think of them as named boxes (memopry address) that have a type (e.g. string, number, etc.) and store a value
+**Variables** think of them as named boxes (memory address) that have a type (e.g. string, number, etc.) and store a value
 
 **Operators** think of them as tasks that you can perform on a **Variable** or several of them, e.g. multiplication.
 
@@ -182,7 +182,13 @@ for (i = 0; i < 10; i++) {
 }
 ```
 
-Play close attention to the syntax, you can read as run the code between `{}` for `i = 0`, then add 1 to `i` (`i++`), run it again if `i` is smaller than 10 (`i < 10`), then add 1 to i (`i++`), ...
+Play close attention to the syntax, you can read this code as: 
+
+* run the code between `{}` for `i = 0`, 
+* then add 1 to `i` (`i++`), 
+* run it again if `i` is smaller than 10 (`i < 10`), 
+* then add 1 to i (`i++`), 
+* ...
 
 #### Example of if statements
 
@@ -200,7 +206,11 @@ if (r_number > 5) {
 }
 ```
 
-Play close attention to the syntax, you can read this as if the condition is true, then run the code between `{}`
+Play close attention to the syntax, you can read this as:
+
+* if the condition is true, 
+* then run the code between `{}`
+* otherwise ignore the code between `{}`
 
 **Task 6**: colorcode the blobs image based on a property of the detected objects, e.g. circularity.
 
