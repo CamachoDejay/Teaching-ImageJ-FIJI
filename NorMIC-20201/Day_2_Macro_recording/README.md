@@ -75,3 +75,61 @@ setOption("BlackBackground", true);
 * To automatically open the Blobs image you can use `run("Blobs (25K)");`
 
 **Catchup** Having problems look and example [here](./Macros/Macro_02.ijm)
+
+### Step 3: Simple user input in the macro
+
+**Task 3**: Let us ask the user to open an iamge and run the same analysis as before in that image
+
+Hints:
+
+* Have a look at the [built in macro functions for File](https://imagej.nih.gov/ij/developer/macro/functions.html#F)
+
+  * `File.openDialog`
+  * `File.getName`
+  * `File.getParent`
+  * `File.getNameWithoutExtension`
+  * `getNumber("prompt", defaultValue)`
+
+* Use the [cheat sheet](https://github.com/BiAPoL/imagej-macro-cheat-sheet)
+* Have a look at how to get [Script parameters working](https://imagej.net/Script_parameters)
+* For this example is enough to use `File.*` commands Ishowed above
+
+**Catchup** Having problems look and example [here](./Macros/Macro_03.ijm)
+
+### Step 4: Macro Language
+
+**Task 4**: Follow the "Hello World" Example that is in [here](https://imagej.nih.gov/ij/developer/macro/macros.html#hello)
+
+#### Variables and operators
+
+**Variables** think of them as named boxes (memopry address) that have a type (e.g. string, number, etc.) and store a value
+
+**Operators** think of them as tasks that you can perform on a **Variable** or several of them, e.g. multiplication.
+
+#### Example of numeric variables and operatos in IJM
+Here is an example code that creates 2 numeric variables, `a` and `b`, uses the `+` operator to sum and assign that value to a new variable `sum_out` and then prints that result
+
+```
+// init numeric variables
+a = 3;
+b = 2.7;
+// use the sum operator
+sum_out = a + b;
+// print the results
+print(sum_out);
+```
+
+**Important** note how in IJM we always (almost) finish the lines with a `;`
+
+#### Example of string variables and operatos in IJM
+Here is an example code that creates 2 string variables, `first_name` and `last_name`, uses the `+` operator to concatenate these strings and then prints that result.
+
+```
+// init strings
+first_name = "Rafael";
+last_name = "Camacho";
+// concatenate and print
+print("Hello " + first_name + " " + last_name);
+```
+
+[Here](./Macros/concatenate_strings_numbers.ijm) you find a combination of strings and numbers:
