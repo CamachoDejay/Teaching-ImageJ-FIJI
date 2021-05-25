@@ -1,5 +1,7 @@
 # Day 2 introductrion to Macro recording and programming
 
+[Link to the google ppt](https://docs.google.com/presentation/d/1ZgO9sBdN5LrHWCaoqRzTOhNFDGPwRJvItHuSHsqE5v4/edit?usp=sharing)
+
 Scripting in ImageJ / FIJI allows you to produce reproducible workflows, for yourself and others. It:
 
 * Improves science communication
