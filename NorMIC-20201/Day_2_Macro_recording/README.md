@@ -1,4 +1,4 @@
-# Day 2 introductrion to Macro recording and programming
+# Day 2 Introduction to Macro recording and programming
 
 [Link to the google ppt](https://docs.google.com/presentation/d/1ZgO9sBdN5LrHWCaoqRzTOhNFDGPwRJvItHuSHsqE5v4/edit?usp=sharing)
 
@@ -13,7 +13,7 @@ Scripting in ImageJ / FIJI allows you to produce reproducible workflows, for you
 * How to use the macro recorder
 * Hot to go from recording to a simple macro
 
-## What is the macro language
+## What is the macro language?
 
 From the [Macro language Site](https://imagej.nih.gov/ij/developer/macro/macros.html) we have:
 
@@ -24,11 +24,11 @@ From the [Macro language Site](https://imagej.nih.gov/ij/developer/macro/macros.
 * Introduction to ImageJ's macro language: [Link](https://imagej.nih.gov/ij/developer/macro/macros.html)
 * Built-in Macro Functions: [link](https://imagej.nih.gov/ij/developer/macro/functions.html)
 * Image.sc forum: [link](https://forum.image.sc/)
-* Cheat sheet by [Robert Haase](https://twitter.com/haesleinhuepf) and firends: [Link](https://github.com/BiAPoL/imagej-macro-cheat-sheet)
+* Cheatsheet by [Robert Haase](https://twitter.com/haesleinhuepf) and friends: [Link](https://github.com/BiAPoL/imagej-macro-cheat-sheet)
 
 ## Practical session
 
-**Disclamer**: We will be working with [FIJI](https://imagej.net/Fiji/Downloads) for this practical. If you get stuck doing the tasks you can use the catchups for inspiration and help.
+**Disclaimer**: We will be working with [FIJI](https://imagej.net/Fiji/Downloads) for this practical. If you get stuck doing the tasks you can use the catchups for inspiration and help.
 
 ### Step 1: The recorder
 
@@ -46,7 +46,7 @@ Hints:
 
 **Catchup** Having problems look and example [here](./Macros/Macro_01.ijm)
 
-### Step 2: Recroder 2 macro
+### Step 2: Recorder 2 macro
 
 **Task 2**: Now it is time to take that recording a clean it up into a simple macro.
 
@@ -56,8 +56,8 @@ Hints:
 * Alternatively, go to:
 
   * `File > New > Script`
-  * Change the language to imageJ macro via `Language > IJ1 Macro`
-  * Copy paste what you need from the recorder
+  * Change the language to ImageJ macro via `Language > IJ1 Macro`
+  * Copy-paste what you need from the recorder
 
 * In most cases, it is a good idea to always clean your ImageJ before you run commands, for example:
 
@@ -84,7 +84,7 @@ setOption("BlackBackground", true);
 
 Hints:
 
-* Have a look at the [built in macro functions for File](https://imagej.nih.gov/ij/developer/macro/functions.html#F)
+* Have a look at the [built-in macro functions for File](https://imagej.nih.gov/ij/developer/macro/functions.html#F)
 
   * `File.openDialog`
   * `File.getName`
@@ -108,7 +108,8 @@ Hints:
 
 **Operators** think of them as tasks that you can perform on a **Variable** or several of them, e.g. multiplication.
 
-#### Example of numeric variables and operatos in IJM
+#### Example of numeric variables and operators in IJM
+
 Here is an example code that creates 2 numeric variables, `a` and `b`, uses the `+` operator to sum and assign that value to a new variable `sum_out` and then prints that result
 
 ```
@@ -123,7 +124,8 @@ print(sum_out);
 
 **Important** note how in IJM we always (almost) finish the lines with a `;`
 
-#### Example of string variables and operatos in IJM
+#### Example of string variables and operators in IJM
+
 Here is an example code that creates 2 string variables, `first_name` and `last_name`, uses the `+` operator to concatenate these strings and then prints that result.
 
 ```
@@ -163,7 +165,7 @@ Hints, look at the commands:
 
 ### Step 5: Control statements
 
-In programming, **control satemensts** are used to decide the *flow* ofn the programm. This is how we tell the program what to do if somethings happens (`if-statement`) and to repeat a process a number of times (`for-loop`).
+In programming, **control satements** are used to decide the *flow* of the program. This is how we tell the program what to do if something happens (`if-statement`) and to repeat a process a number of times (`for-loop`).
 
 #### Example of for loops
 
@@ -182,12 +184,12 @@ for (i = 0; i < 10; i++) {
 }
 ```
 
-Play close attention to the syntax, you can read this code as: 
+Pay close attention to the syntax, you can read this code as:
 
-* run the code between `{}` for `i = 0`, 
-* then add 1 to `i` (`i++`), 
-* run it again if `i` is smaller than 10 (`i < 10`), 
-* then add 1 to i (`i++`), 
+* run the code between `{}` for `i = 0`,
+* then add 1 to `i` (`i++`),
+* run it again if `i` is smaller than 10 (`i < 10`),
+* then add 1 to i (`i++`),
 * ...
 
 #### Example of if statements
@@ -206,13 +208,13 @@ if (r_number > 5) {
 }
 ```
 
-Play close attention to the syntax, you can read this as:
+Pay close attention to the syntax, you can read this as:
 
-* if the condition is true, 
+* if the condition is true,
 * then run the code between `{}`
 * otherwise ignore the code between `{}`
 
-**Task 6**: colorcode the blobs image based on a property of the detected objects, e.g. circularity.
+**Task 6**: color code the blobs image based on a property of the detected objects, e.g. circularity.
 
 ![alt text](./data/color_coded.png "Color-coded blobs")
 
@@ -231,6 +233,5 @@ for (i = 0; i < nResults(); i++){
 ```
 
 An example of this pattern, outside of the ROI context can be found [here](./Macros/loop_and_if.ijm). I recommend you study that example first.
-
 
 **Example of an Answer**: [here](./Macros/Macro_05.ijm) I show a working example to solve this question. Please keep in mind that "all roads lead to rome" and thus there are many ways to solve this problem.
