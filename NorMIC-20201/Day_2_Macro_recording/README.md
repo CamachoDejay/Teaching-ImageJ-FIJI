@@ -44,7 +44,7 @@ Hints:
 * Thresholding can be done via `Image > Adjust > Threshold`
 * To then quantify, remember the use of `Analyze > Set Measurements` and `Analyze > Analyze particles`
 
-**Catchup** Having problems look and example [here](./Macros/Macro_01.ijm)
+**Catchup** Having problems look at an example [here](./Macros/Macro_01.ijm)
 
 ### Step 2: Recorder 2 macro
 
@@ -76,7 +76,7 @@ setOption("BlackBackground", true);
 * Remember that you can add comments by using `//` at the start of a line, see example above
 * To automatically open the Blobs image you can use `run("Blobs (25K)");`
 
-**Catchup** Having problems look and example [here](./Macros/Macro_02.ijm)
+**Catchup** Having problems look at an example [here](./Macros/Macro_02.ijm)
 
 ### Step 3: Simple user input in the macro
 
@@ -96,7 +96,7 @@ Hints:
 * Have a look at how to get [Script parameters working](https://imagej.net/Script_parameters)
 * For this example is enough to use the `File.*` commands I showed above
 
-**Catchup** Having problems look and example [here](./Macros/Macro_03.ijm)
+**Catchup** Having problems look at an example [here](./Macros/Macro_03.ijm)
 
 ### Step 4: Macro Language
 
@@ -161,7 +161,7 @@ Hints, look at the commands:
 * `nResults`
 * Store the number in a variable and then print to the user following the examples from taks 5
 
-**Catchup** Having problems look and example [here](./Macros/Macro_04.ijm)
+**Catchup** Having problems look at an example [here](./Macros/Macro_04.ijm)
 
 ### Step 5: Control statements
 
