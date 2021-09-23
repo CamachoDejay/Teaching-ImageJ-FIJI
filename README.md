@@ -4,6 +4,11 @@
 
 List of resources used during different courses
 
+# NMI 2021
+Short (30-minute) introductory lecture on BioImage Analysis using FIJI. [Go here for details](./NMI-2021)
+
+This lecture was part of the [NMI 2021 open lectures](https://nmisweden.se/arkiv/4th-nmi-course-online.html)
+
 # NorMIC 2021
 
 I will participate in the [6th NorMIC Imaging Workshop](https://www.med.uio.no/ncmm/english/news-and-events/events/courses-and-workshops/2021/normic-imaging-workshop-course-in-advanced-light-m.html). 
