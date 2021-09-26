@@ -9,7 +9,9 @@ Short (30-minute) introductory lecture on BioImage Analysis using FIJI. [Go here
 
 This lecture was part of the [NMI 2021 open lectures](https://nmisweden.se/arkiv/4th-nmi-course-online.html)
 
-[Go here for the recording of the live demo](https://youtu.be/_9TWrzm3vBg)
+[![Go here for the recording of the live demo](https://img.youtube.com/vi/_9TWrzm3vBg/0.jpg)](https://youtu.be/_9TWrzm3vBg)
+
+
 # NorMIC 2021
 
 I will participate in the [6th NorMIC Imaging Workshop](https://www.med.uio.no/ncmm/english/news-and-events/events/courses-and-workshops/2021/normic-imaging-workshop-course-in-advanced-light-m.html). 
