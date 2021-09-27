@@ -10,6 +10,13 @@ Direct link to the [presentation](https://docs.google.com/presentation/d/1tUm6f9
 
 Link to the [folder containing also the data](https://drive.google.com/drive/folders/16stc9skWjEJYq4EM6u9a6Voif0XLMSRk?usp=sharing)
 
+## Youtube video for the live demo
+
+[Here the link](https://youtu.be/_9TWrzm3vBg) for the recording of the live demo:
+
+[![Go here for the recording of the live demo](https://img.youtube.com/vi/_9TWrzm3vBg/0.jpg)](https://youtu.be/_9TWrzm3vBg)
+
+
 # List of resources
 
 ## Sites
