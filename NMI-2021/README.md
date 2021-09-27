@@ -14,8 +14,7 @@ Link to the [folder containing also the data](https://drive.google.com/drive/fol
 
 [Here the link](https://youtu.be/_9TWrzm3vBg) for the recording of the live demo:
 
-[![Go here for the recording of the live demo](https://img.youtube.com/vi/_9TWrzm3vBg/0.jpg)](https://youtu.be/_9TWrzm3vBg)
-
+[![Go here for the recording of the live demo](../misc/NMI_2021.gif)](https://youtu.be/_9TWrzm3vBg)
 
 # List of resources
 
