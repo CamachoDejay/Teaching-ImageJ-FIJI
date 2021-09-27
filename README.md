@@ -9,7 +9,7 @@ Short (30-minute) introductory lecture on BioImage Analysis using FIJI. [Go here
 
 This lecture was part of the [NMI 2021 open lectures](https://nmisweden.se/arkiv/4th-nmi-course-online.html)
 
-Here the link for the recording of the live demo:
+[Here the link](https://youtu.be/_9TWrzm3vBg) for the recording of the live demo:
 
 [![Go here for the recording of the live demo](https://img.youtube.com/vi/_9TWrzm3vBg/0.jpg)](https://youtu.be/_9TWrzm3vBg)
 
