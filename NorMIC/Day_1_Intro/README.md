@@ -20,6 +20,27 @@ Day 1, is a practical introduction to bio-image analysis in [ImageJ](https://ima
     * Post-processing: morphological operations
     * Quantification
 
+### Images are numbers
+
+Below you will find direct links to the files, which are in the training material [google folder](https://drive.google.com/drive/folders/1ASx1uBnLG7xr8hqTlWnkWvnNvj-uJ3sI?usp=sharing)
+
+#### 1.1 Handeling text files
+
+Here the [demo text file](https://drive.google.com/file/d/1VA9DQERBfkuMvp9PeRRF4h7pAd1jmFkH/view?usp=sharing)
+
+#### 1.3 Handeling image data formats, Metadata!!
+
+Here the [demo geryscale tif](https://drive.google.com/file/d/1DjRwK5mXse9H2DQyjhlxonRsXn1rbysc/view?usp=sharing)
+
+#### 1.4 Handeling RGB images and what is Metadata
+
+Here the [demo RGB image](https://drive.google.com/file/d/1ViNTNl1s9rYLGgpebO3EG0va4mB3RRrT/view?usp=sharing)
+
+#### 1.5 Multichannel image data
+
+Here the [demo tif file with multichannel data](https://drive.google.com/file/d/1lcEEsiIpKZfQwrvAmdn2WeCBTEmrmFEu/view?usp=sharing)
+
+
 ## Need help installing FIJI, please have a look here:
 
 ### Download
