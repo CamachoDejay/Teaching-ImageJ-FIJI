@@ -1,3 +1,7 @@
+# What do you find here
+
+This is a collection of the material used for the NorMIC lab on image analysis. The google folder contains the data you will need to follow the lab. Moreover, I also provide links to the files in the detailed explanation below. The presentation used during the lab is found in the google slides. If you are completely new to FIJI, and don't know how to install the software please go to the end of this page for some useful links.
+
 # Google folder
 
 Here you can find the presentation in PDF and also the data we will be working on
@@ -21,6 +25,10 @@ Day 1, is a practical introduction to bio-image analysis in [ImageJ](https://ima
     * Quantification
 
 ### 1 Images are numbers
+
+#### Before you begin
+
+Download a fresh installation of [FIJI](https://imagej.net/software/fiji/).
 
 Below you will find direct links to the files, which are in the training material [google folder](https://drive.google.com/drive/folders/1ASx1uBnLG7xr8hqTlWnkWvnNvj-uJ3sI?usp=sharing)
 
@@ -63,3 +71,12 @@ Look at this youtube video: https://youtu.be/BwJRFkQh5XE
 ### If you run into big problems
 
 Please post a question in the Image.sc forum: https://forum.image.sc/
+
+## Important resources
+
+    * ImageJ/FIJI learning: https://imagej.net/Learn 
+    * NEUBIAS: http://eubias.org/NEUBIAS/
+    * Image.sc Forum https://forum.image.sc/
+    * Bio-Image analysis wiki http://wiki.cmci.info/start
+    * Bioimage Data Analysis, Editor: Kota Miura https://analyticalscience.wiley.com/do/10.1002/was.00050003
+    * Bioimage Data Analysis Workflows, Editors: Kota Miura and Nataša Sladoje https://www.springer.com/gp/book/9783030223854
