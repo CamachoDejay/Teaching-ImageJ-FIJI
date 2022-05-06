@@ -36,9 +36,15 @@ Below you will find direct links to the files, which are in the training materia
 
 Here the [demo text file](https://drive.google.com/file/d/1VA9DQERBfkuMvp9PeRRF4h7pAd1jmFkH/view?usp=sharing)
 
+What is bit depth? have a look at the [wiki article on grayscale digital images](https://en.wikipedia.org/wiki/Grayscale)
+
+Not sure how a histogram is built, [check this out](https://en.wikipedia.org/wiki/Histogram)
+
 #### 1.3 Handling image data formats, Metadata!!
 
 Here the [demo geryscale tif](https://drive.google.com/file/d/1DjRwK5mXse9H2DQyjhlxonRsXn1rbysc/view?usp=sharing)
+
+Not sure still about what is metadata, [here some info from the ImageJ website](https://imagej.net/formats/metadata). Looking for more info on Look Up Tables (LUTs) [then go to the Neubias training resources](https://neubias.github.io/training-resources/lut/index.html)
 
 #### 1.4 Handling RGB images and what is Metadata
 
@@ -50,9 +56,15 @@ Here the [demo tif file with multichannel data](https://drive.google.com/file/d/
 
 ### 2 Basic image analysis pipeline
 
-Here the [demo rice image](https://drive.google.com/file/d/1Wm-QEs4XcJ-cu42mStFtWK-QC7C5adQY/view?usp=sharing), a clasic!
+Some good reading on what a [BioImage Analysis Workflow is can be found here](http://eubias.org/NEUBIAS/workflows-components-bioimage-analysis-neubias-concept/)
 
-If you are having problems with the sewgmentation, and want to practice the quantification tasks via "Analyze particles" please use this [segmented rice image](https://drive.google.com/file/d/1P8WEHL9ds0u2I4QPyu4KGqcB685B0HXu/view?usp=sharing) as a catchup
+Here the [demo rice image](https://drive.google.com/file/d/1Wm-QEs4XcJ-cu42mStFtWK-QC7C5adQY/view?usp=sharing), a classic!
+
+Some extra information on [thresholding](https://neubias.github.io/training-resources/binarization/index.html) and [filtering](https://neubias.github.io/training-resources/filter_neighbourhood/) is available from Neubias.
+
+If you are having problems with the segmentation, and want to practice the quantification tasks via "Analyze particles" please use this [segmented rice image](https://drive.google.com/file/d/1P8WEHL9ds0u2I4QPyu4KGqcB685B0HXu/view?usp=sharing) as a catchup
+
+An important step of many post-processing methods is the [Watershed algorithm](https://en.wikipedia.org/wiki/Watershed_(image_processing)), some info on [how this works in FIJI can be found here](https://imagej.net/plugins/classic-watershed). Then there is a world of operations we can do to improve our segmentation. Many of these are what we call [Morphological operations](https://en.wikipedia.org/wiki/Mathematical_morphology), check out how to do these in FIJI using [MorphoLibJ](https://imagej.net/plugins/morpholibj)
 
 ## Need help installing FIJI, please have a look here
 
@@ -74,9 +86,9 @@ Please post a question in the Image.sc forum: https://forum.image.sc/
 
 ## Important resources
 
-    * ImageJ/FIJI learning: https://imagej.net/Learn 
-    * NEUBIAS: http://eubias.org/NEUBIAS/
-    * Image.sc Forum https://forum.image.sc/
-    * Bio-Image analysis wiki http://wiki.cmci.info/start
-    * Bioimage Data Analysis, Editor: Kota Miura https://analyticalscience.wiley.com/do/10.1002/was.00050003
-    * Bioimage Data Analysis Workflows, Editors: Kota Miura and Nataša Sladoje https://www.springer.com/gp/book/9783030223854
+* ImageJ/FIJI learning: https://imagej.net/Learn 
+* NEUBIAS: http://eubias.org/NEUBIAS/
+* Image.sc Forum https://forum.image.sc/
+* Bio-Image analysis wiki http://wiki.cmci.info/start
+* Bioimage Data Analysis, Editor: Kota Miura https://analyticalscience.wiley.com/do/10.1002/was.00050003
+* Bioimage Data Analysis Workflows, Editors: Kota Miura and Nataša Sladoje https://www.springer.com/gp/book/9783030223854
