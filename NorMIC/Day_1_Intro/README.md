@@ -2,7 +2,7 @@
 
 Here you can find the presentation in PDF and also the data we will be working on
 
-[NorMIC_2021 Material](https://drive.google.com/drive/folders/1ASx1uBnLG7xr8hqTlWnkWvnNvj-uJ3sI?usp=sharing)
+[NorMIC Material](https://drive.google.com/drive/folders/1ASx1uBnLG7xr8hqTlWnkWvnNvj-uJ3sI?usp=sharing)
 
 ## Google slides for day 1
 
