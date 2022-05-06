@@ -19,3 +19,21 @@ Day 1, is a practical introduction to bio-image analysis in [ImageJ](https://ima
     * Segmentation
     * Post-processing: morphological operations
     * Quantification
+
+## Need help installing FIJI, please have a look here:
+
+### Download
+
+Please go to the [FIJI donwloads website here](https://imagej.net/software/fiji/downloads)
+
+### MacOS (which is a bit trickier): 
+
+Look at this youtube video: https://youtu.be/7aCZV-hp0-4
+
+### Windows
+
+Look at this youtube video: https://youtu.be/BwJRFkQh5XE
+
+### If you run into big problems
+
+Please post a question in the Image.sc forum: https://forum.image.sc/
