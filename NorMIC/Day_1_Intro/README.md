@@ -72,7 +72,7 @@ An important step of many post-processing methods is the [Watershed algorithm](h
 
 Please go to the [FIJI donwloads website here](https://imagej.net/software/fiji/downloads)
 
-### MacOS (which is a bit trickier): 
+### MacOS (which is a bit trickier)
 
 Look at this youtube video: https://youtu.be/7aCZV-hp0-4
 
@@ -86,6 +86,7 @@ Please post a question in the Image.sc forum: https://forum.image.sc/
 
 ## Important resources
 
+* Online and interactive book on "Introduction to Bioimage Analysis" by Pete Bankhead: https://bioimagebook.github.io/README.html
 * ImageJ/FIJI learning: https://imagej.net/Learn 
 * NEUBIAS: http://eubias.org/NEUBIAS/
 * Image.sc Forum https://forum.image.sc/
