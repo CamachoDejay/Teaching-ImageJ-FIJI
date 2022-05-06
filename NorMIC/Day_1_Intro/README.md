@@ -98,4 +98,4 @@ Please post a question in the Image.sc forum: https://forum.image.sc/
 
 If you missed the lecture then you can have a look at this [recording of a live demo I did for the NMI of Sweden](https://youtu.be/_9TWrzm3vBg):
 
-[![Go here for the recording of the live demo](../misc/NMI_2021.gif)](https://youtu.be/_9TWrzm3vBg)
+[![Go here for the recording of the live demo](../../misc/NMI_2021.gif)](https://youtu.be/_9TWrzm3vBg)
