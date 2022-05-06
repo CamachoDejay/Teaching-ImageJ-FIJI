@@ -2,7 +2,7 @@
 
 This is a collection of the material used for the NorMIC lab on image analysis. The google folder contains the data you will need to follow the lab. Moreover, I also provide links to the files in the detailed explanation below. The presentation used during the lab is found in the google slides. If you are completely new to FIJI, and don't know how to install the software please go to the end of this page for some useful links.
 
-# Google folder
+## Google folder
 
 Here you can find the presentation in PDF and also the data we will be working on
 
@@ -24,15 +24,15 @@ Day 1, is a practical introduction to bio-image analysis in [ImageJ](https://ima
     * Post-processing: morphological operations
     * Quantification
 
-### 1 Images are numbers
+## 1 Images are numbers
 
-#### Before you begin
+### Before you begin
 
 Download a fresh installation of [FIJI](https://imagej.net/software/fiji/).
 
 Below you will find direct links to the files, which are in the training material [google folder](https://drive.google.com/drive/folders/1ASx1uBnLG7xr8hqTlWnkWvnNvj-uJ3sI?usp=sharing)
 
-#### 1.1 Handling text files
+### 1.1 Handling text files
 
 Here the [demo text file](https://drive.google.com/file/d/1VA9DQERBfkuMvp9PeRRF4h7pAd1jmFkH/view?usp=sharing)
 
@@ -40,21 +40,21 @@ What is bit depth? have a look at the [wiki article on grayscale digital images]
 
 Not sure how a histogram is built, [check this out](https://en.wikipedia.org/wiki/Histogram)
 
-#### 1.3 Handling image data formats, Metadata!!
+### 1.3 Handling image data formats, Metadata!!
 
 Here the [demo geryscale tif](https://drive.google.com/file/d/1DjRwK5mXse9H2DQyjhlxonRsXn1rbysc/view?usp=sharing)
 
 Not sure still about what is metadata, [here some info from the ImageJ website](https://imagej.net/formats/metadata). Looking for more info on Look Up Tables (LUTs) [then go to the Neubias training resources](https://neubias.github.io/training-resources/lut/index.html)
 
-#### 1.4 Handling RGB images and what is Metadata
+### 1.4 Handling RGB images and what is Metadata
 
 Here the [demo RGB image](https://drive.google.com/file/d/1ViNTNl1s9rYLGgpebO3EG0va4mB3RRrT/view?usp=sharing)
 
-#### 1.5 Multichannel image data
+### 1.5 Multichannel image data
 
 Here the [demo tif file with multichannel data](https://drive.google.com/file/d/1lcEEsiIpKZfQwrvAmdn2WeCBTEmrmFEu/view?usp=sharing)
 
-### 2 Basic image analysis pipeline
+## 2 Basic image analysis pipeline
 
 Some good reading on what a [BioImage Analysis Workflow is can be found here](http://eubias.org/NEUBIAS/workflows-components-bioimage-analysis-neubias-concept/)
 
@@ -93,3 +93,9 @@ Please post a question in the Image.sc forum: https://forum.image.sc/
 * Bio-Image analysis wiki http://wiki.cmci.info/start
 * Bioimage Data Analysis, Editor: Kota Miura https://analyticalscience.wiley.com/do/10.1002/was.00050003
 * Bioimage Data Analysis Workflows, Editors: Kota Miura and Nataša Sladoje https://www.springer.com/gp/book/9783030223854
+
+## Did you miss the lecture?
+
+If you missed the lecture then you can have a look at this [recording of a live demo I did for the NMI of Sweden](https://youtu.be/_9TWrzm3vBg):
+
+[![Go here for the recording of the live demo](./misc/NMI_2021.gif)](https://youtu.be/_9TWrzm3vBg)
