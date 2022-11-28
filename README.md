@@ -20,7 +20,7 @@ This lecture was part of the [NMI 2021 open lectures](https://nmisweden.se/arkiv
 
 [![Go here for the recording of the live demo](./misc/NMI_2021.gif)](https://youtu.be/_9TWrzm3vBg)
 
-# NorMIC 2021 and 2022
+# NorMIC 2021
 
 Material used in the [6th NorMIC Imaging Workshop](https://www.med.uio.no/ncmm/english/news-and-events/events/courses-and-workshops/2021/normic-imaging-workshop-course-in-advanced-light-m.html) and the [8th NorMic Workshop on Biologial Optical Microscopy](https://www.med.uio.no/ncmm/english/news-and-events/events/courses-and-workshops/2022/8th-normic-imaging-workshop)
 
