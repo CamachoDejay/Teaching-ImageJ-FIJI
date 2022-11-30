@@ -71,13 +71,20 @@ An important step of many post-processing methods is the [Watershed algorithm](h
 Here catchup videos for the workflows:
 
 * [Segmentation via gradients](https://youtu.be/xk6FG7ZVwz8)
-    [![youtube gradients](../../misc/demo_00_gradients.png)](https://youtu.be/xk6FG7ZVwz8)
+
+[![youtube gradients](../../misc/demo_00_gradients.png)](https://youtu.be/xk6FG7ZVwz8)
+
 * [Temporal filtering - removing stationary background](https://youtu.be/nghiINTPeoQ)
-    [![youtube temp filt](../../misc/demo_02_temp_filt.png)](https://youtu.be/nghiINTPeoQ)
+
+[![youtube temp filt](../../misc/demo_02_temp_filt.png)](https://youtu.be/nghiINTPeoQ)
+
 * [Spot detection - Difference of Gaussias](https://youtu.be/rLTrXh3FWmc)
-    [![youtube dog](../../misc/demo_01_dog.png)](https://youtu.be/rLTrXh3FWmc)
+
+[![youtube dog](../../misc/demo_01_dog.png)](https://youtu.be/rLTrXh3FWmc)
+
 * [Length measurements](https://youtu.be/_7srHwCa7v0)
-    [![youtube length](../../misc/demo_03_length.png)](https://youtu.be/_7srHwCa7v0)
+
+[![youtube length](../../misc/demo_03_length.png)](https://youtu.be/_7srHwCa7v0)
 
 ## Need help installing FIJI, please have a look here
 
