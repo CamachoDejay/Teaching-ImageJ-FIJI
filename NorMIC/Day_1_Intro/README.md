@@ -66,6 +66,19 @@ If you are having problems with the segmentation, and want to practice the quant
 
 An important step of many post-processing methods is the [Watershed algorithm](https://en.wikipedia.org/wiki/Watershed_(image_processing)), some info on [how this works in FIJI can be found here](https://imagej.net/plugins/classic-watershed). Then there is a world of operations we can do to improve our segmentation. Many of these are what we call [Morphological operations](https://en.wikipedia.org/wiki/Mathematical_morphology), check out how to do these in FIJI using [MorphoLibJ](https://imagej.net/plugins/morpholibj)
 
+## Workflow examples
+
+Here catchup videos for the workflows:
+
+* [Segmentation via gradients](https://youtu.be/xk6FG7ZVwz8)
+    [![youtube gradients](../../misc/demo_00_gradients.png)](https://youtu.be/xk6FG7ZVwz8)
+* [Temporal filtering - removing stationary background](https://youtu.be/nghiINTPeoQ)
+    [![youtube temp filt](../../misc/demo_02_temp_filt.png)](https://youtu.be/nghiINTPeoQ)
+* [Spot detection - Difference of Gaussias](https://youtu.be/rLTrXh3FWmc)
+    [![youtube dog](../../misc/demo_01_dog.png)](https://youtu.be/rLTrXh3FWmc)
+* [Length measurements](https://youtu.be/_7srHwCa7v0)
+    [![youtube length](../../misc/demo_03_length.png)](https://youtu.be/_7srHwCa7v0)
+
 ## Need help installing FIJI, please have a look here
 
 ### Download
